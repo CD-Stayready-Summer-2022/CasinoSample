@@ -24,8 +24,10 @@ public class Deck {
         }
     }
 
-    public Card deal(Integer numberOfCards){
-        return null;
+    public Card takeCardFromDeck(){
+        Card card = cards.get(0);
+        cards.remove(0);
+        return card;
     }
 
     public Integer cardsRemaining(){

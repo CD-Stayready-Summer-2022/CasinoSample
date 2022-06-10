@@ -13,6 +13,10 @@ public class Hand {
         return cards;
     }
 
+    public Boolean valueOfCardInHand(){
+        return null;
+    }
+
     public void giveCardToHand(Card card){
         cards.add(card);
     }

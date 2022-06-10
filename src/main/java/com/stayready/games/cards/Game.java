@@ -6,6 +6,6 @@ import java.util.ArrayList;
 
 public interface Game {
 
-    void startGame(ArrayList<Player> players);
+    void startGame();
 
 }
