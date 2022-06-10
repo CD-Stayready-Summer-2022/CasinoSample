@@ -5,6 +5,7 @@ import com.stayready.games.cards.card.CardSuit;
 import com.stayready.games.cards.card.CardValue;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Deck {
     private ArrayList<Card> cards;
@@ -32,7 +33,7 @@ public class Deck {
     }
 
     public void shuffle(){
-
+        Collections.shuffle(cards);
     }
 
 
